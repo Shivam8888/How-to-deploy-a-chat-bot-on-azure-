@@ -6,14 +6,14 @@ After creation of resource you will get an app id
 
 Go to messaging end point and add your chatbot endpoint where your bot response 
 # Step 2: Create a manifest:
-We are configuring the bot flow i mean how the bot will get and receive the response
+It's a json in that bot capabilities has been configured like how the bot will get and receive the response
 
 # Step 3: Go to Teams and upload your app
 You need to go to Teams and then navigate to manage apps and then go to upload app
 Upload you manifest there
-Your chat bot will update
+Your chat bot will add on your Teams.
 
-# Note: The above requirements may vary depending upon the azure versions
+## Note: The above requirements may vary depending upon the azure versions
 
 # If you have any queries, You can connect me further on Linkedin
 
