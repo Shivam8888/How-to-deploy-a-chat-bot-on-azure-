@@ -15,7 +15,7 @@ Your chat bot will add on your Teams.
 
 ## Note: The above requirements may vary depending upon the azure versions
 
-# If you have any queries, You can connect me further on Linkedin
+## If you have any queries, You can connect me further on Linkedin
 
 linkedin.com/in/shivam-mishra-72666019a
 
