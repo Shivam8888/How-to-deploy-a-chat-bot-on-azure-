@@ -1,0 +1,97 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/teams/v1.8/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.8",
+    "version": "1.1",
+    "id": "181bdd93-251d-48bb-aa05-dbefa24cdf4a",
+    "developer": {
+        "name": "Microsoft Corp",
+        "websiteUrl": "https://example.azurewebsites.net",
+        "privacyUrl": "https://example.azurewebsites.net/privacy",
+        "termsOfUseUrl": "https://example.azurewebsites.net/termsOfuse"
+       
+    },
+    "name": {
+        "short": "Your Bot name",
+        "full": "Your Bot name"
+    },
+    "description": {
+        "short": "Description of your bot",
+        "full": "Description of your bot"
+    },
+    "icons": {
+        "outline": "Add your bot logo",
+        "color": "Add your bot logo"
+    },
+    "accentColor": "#74992e",
+    "bots": [
+        {
+            "botId": "Enter your bot id",
+            "scopes": [
+                "team",
+                "personal",
+                "groupChat"
+            ],
+           
+            "supportsFiles": true,
+            "commandLists": [
+                {
+                    "scopes": [
+                        "personal"
+                    ],
+                    "commands": [
+                        {
+                            "title": "Hi",
+                            "description": "Description of Command"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+   
+    "composeExtensions": [
+        {
+            "canUpdateConfiguration": true,
+            "botId": "Enter your bot id",
+            "commands": [
+                {
+                    "id": "Enter your bot id",
+                    "title": "Example Command",
+                    "type": "query",
+                    "context": [
+                        "compose",
+                        "commandBox"
+                    ],
+                    "description": "Command Description; e.g., Search on the web",
+                    "parameters": [
+                        {
+                            "name": "keyword",
+                            "title": "Search keywords",
+                            "inputType": "choiceset",
+                            "description": "Enter the keywords to search for"
+                           
+                        }
+                    ]
+                }
+              
+          
+            ]
+        }
+    ],
+    "permissions": [
+        "identity",
+        "messageTeamMembers"
+    ],
+  
+    "validDomains": [
+        "*.azurewesites.net",
+        "*.2.azurestaticapps.net",
+        "*.powerbi.com",
+        "*.ngrok.io",
+        "*.in.ngrok.io",
+        "token.botframework.com",
+        "*.microsoftonline.com",
+        "*.sharepoint.com"
+    ]
+      
+}
