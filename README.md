@@ -12,8 +12,8 @@ It's a json in that bot capabilities has been configured like how the bot will g
 You need to go to Teams and then navigate to manage apps and then go to upload app
 Upload you manifest there
 Your chat bot will add on your Teams.
-
-## Note: The above requirements may vary depending upon the azure versions
+For more details refer to below link:
+https://learn.microsoft.com/en-us/azure/active-directory/develop/reference-app-manifest
 
 ## If you have any queries, You can connect me further on Linkedin
 
